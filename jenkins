@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         IMAGENAME = 'komakulakavya/myflaseexam'
-        GITREPO = 'https://github.com/Komakulakavya/flaskdockerjenkins.git'
+        GITREPO = 'https://github.com/Komakulakavya/flaksdockerjenkins.git'
         BRANCH = 'main'
     }
 
